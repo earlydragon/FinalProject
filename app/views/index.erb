@@ -1,15 +1,33 @@
 <!doctype html>
 <html>
   <head>
-    <title>Flatiron Sinatra Project Template</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
     <div class="container">
+        <h3> Login </h3>
+        <form action="/login" method="POST">
+          Email: <input class="form-control" type="text" name="email">
+          Password: <input class="form-control" type="text" name="password">
+          <p>
+          </p>
+          <input type="submit" class="btn btn-default">
+        </form>
 
-
-
+        <h3> Sign Up </h3>
+        <form action="/males" method="POST">
+          First Name: <input class="form-control" type="text" name="firstname">
+          Last Name: <input class="form-control" type="text" name="lastname">
+          Email: <input class="form-control" type="text" name="email">
+          Password: <input class="form-control" type="text" name="password">
+          Male: <input class="radio-inline" type="radio" name="Male"> 
+          Female: <input class="radio-inline" type="radio" name="Female">
+          <p>
+          </p>
+          <input type="submit" class="btn btn-default">
+        </form>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

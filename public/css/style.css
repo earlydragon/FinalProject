@@ -1,0 +1,16 @@
+body {
+    height: 900px; 
+    width: 100%;
+    background: black url(http://true-love.in/wp-content/uploads/2012/06/cute-couple-on-first-date.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+form {float: right;
+width: 376px;
+color: rgb(255, 2, 88);}
+
+h3 {
+    padding-left: 764px;
+    color: rgb(255, 2, 88);
+}
+
