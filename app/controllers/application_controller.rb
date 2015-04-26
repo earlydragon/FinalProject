@@ -26,7 +26,8 @@ class ApplicationController < Sinatra::Base
   	erb :fpl
   end 
 
-  	get '/mpl' do 
+  	get '/mpl' do
+    
   	erb :mpl
   end
 
@@ -36,6 +37,10 @@ class ApplicationController < Sinatra::Base
 
   	get '/fdq' do 
   	erb :fdq
+  end 
+
+
+  post '/males' do
   end 
 
 end

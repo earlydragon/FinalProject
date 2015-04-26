@@ -22,7 +22,10 @@ GEM
     i18n (0.7.0)
     json (1.8.2)
     method_source (0.8.2)
+    mini_portile (0.6.1)
     minitest (5.5.1)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -68,6 +71,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   bcrypt
+  nokogiri
   pry
   rake
   shotgun
